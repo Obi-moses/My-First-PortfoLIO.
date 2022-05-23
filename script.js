@@ -1,11 +1,11 @@
 $(document).ready(function(){
     $(window).scroll(function(){
-        // sticky navbar on scroll script
+       /* // sticky navbar on scroll script
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
         }else{
             $('.navbar').removeClass("sticky");
-        }
+        }*/
         
         // scroll-up button show/hide script
         if(this.scrollY > 500){
@@ -35,38 +35,30 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["YouTuber", "Developer", "Blogger", "Designer", "Freelancer", "content creator", "writer" ],
-        typeSpeed: 90,
-        backSpeed: 300,
+        strings: [ "Developer",  "Designer", "Freelancer", "content creator", ],
+        typeSpeed: 50,
+        backSpeed: 50,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-      strings: [
-        "YouTuber",
-        "Developer",
-        "Blogger",
-        "Designer",
-        "Freelancer",
-        "content creator",
-        "writer",
-      ],
-      typeSpeed: 90,
-      backSpeed: 300,
+      strings: ["Programmer", "Designer", "content creator", "Freelancer"],
+      typeSpeed: 50,
+      backSpeed: 50,
       loop: true,
     });
      var typed = new Typed(".typing-3", {
        strings: [
-         "portfolio",
-         "portfolio",
-         "portfolio",
-         "portfolio",
-         "portfolio",
-         "portfolio",
-         "portfolio",
+         "PORTFOLIO",
+         "PORTFOLIO",
+         "PORTFOLIO",
+         "PORTFOLIO",
+         "PORTFOLIO",
+         "PORTFOLIO",
+         "PORTFOLIO",
        ],
-       typeSpeed: 90,
-       backSpeed: 300,
+       typeSpeed: 50,
+       backSpeed: 50,
        loop: true,
      });
 

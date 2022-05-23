@@ -75,12 +75,12 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    background: crimson;
-    opacity: .8;
+    background: black;
+   
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 20px 0;
+    padding: 5px 0;
     font-family: sans-serif;
     transition: all 0.3s ease;
 }
@@ -96,8 +96,41 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: gold;
+    
     transition: all 0.3s ease;
+}
+.typing-3{
+    color: crimson;
+}
+.lio {
+    color: crimson;
+}
+.purple{
+    color: pink;
+}
+.orange {
+    color: orange;
+}
+.red{
+    color: red;
+}
+.tamarid {
+    color: tomato;
+}
+.flash {
+    color: forestgreen;
+}
+.open {
+    color: olive;
+}
+.lemon {
+    color: lemonchiffon;
+}
+.indigo {
+    color: indigo;
+}
+.ore {
+    color: orchid;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -115,7 +148,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: black;
+    color: crimson;
 }
 
 /* menu btn styling */
@@ -174,15 +207,18 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
+    color:white;
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
+    color: white;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
+    color: white;
 }
 .home .home-content .text-3 span{
     color: crimson;
